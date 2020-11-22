@@ -13,7 +13,7 @@ is use the `jQuery.getScript()` method to load the [`feature.js`](./feature.js)
 file in this repository:
 
 ```js
-javascript:(function(w,$,k){(w[k]||(w[k]=$.getScript("https://bennadel.github.io/poc-invision-share-lazy-load/feature.js")));})(window,jQuery,"LazyLoadPOC");void(0);
+javascript:(function(w,$,k){(w[k]||(w[k]=$.getScript("https://bennadel.github.io/poc-invision-share-lazy-load/feature.js?_="+Date.now())));})(window,jQuery,"LazyLoadPOC");void(0);
 ```
 
 Funzies!
