@@ -9,7 +9,7 @@ within AngularJS 1.6.7 in order to lazy-load / inject a new feature into an
 for community-driven projects to augment the Share behaviors.
 
 Here's a **bookmarklet** that can be used to inject the experiment. All it does
-is use the `jQuery.getScript()` method to load the [`feature.js`](./blob/master/feature.js)
+is use the `jQuery.getScript()` method to load the [`feature.js`](./feature.js)
 file in this repository:
 
 ```js
